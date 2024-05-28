@@ -9,14 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
     <div class="container">
         <div class="design">
             <img src="assets/image/icon.jpeg" style="width: 100%;" alt="">
         </div>
+
         <div class="login">
             <h3 class="title">Login Page</h3>
+            <!-- <form action="/" method="post"> -->
             <div class="text-input">
                 <i class="ri-user-fill"></i>
                 <input type="text" placeholder="Username">
@@ -25,7 +26,9 @@
                 <i class="ri-lock-fill"></i>
                 <input type="password" placeholder="Password">
             </div>
-            <a href="<?= base_url('/navigation') ?>" class="login-btn">LOGIN</a>
+        <!-- </form> -->
+        <a href="<?= base_url('/navigation') ?>"  class="login-btn ">LOGIN</a>
+
         </div>
     </div>
 </body>
